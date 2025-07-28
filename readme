@@ -1,0 +1,41 @@
+Prérequis :
+
+-Python3.6+
+-pip3
+-installation des requirements
+
+1 - Sur les nouveaux stores :
+
+
+        A lancer en tant que zimbra :
+
+for i in `seq 1 100` ; do sed 's/${DATABASE_NAME}/'"mboxgroup$i/g" /opt/zimbra/db/create_database.sql  | mysql ; done
+
+
+2 - le serveur source doit accéder au serveur de destination via une clé ssh
+    Faire un test de connexion et valider le fingerprint
+
+
+3 - Lancer le tunnel :
+
+python3 main.py -l
+
+
+4 - Usage :
+
+ usage: main.py [-h] [-a EMAIL] [-d DESTINATION] [-f CSV_FILE] [-l] [-s]
+
+Fast mailbox move
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -a EMAIL, --email EMAIL
+                        define email addr to move
+  -d DESTINATION, --destination DESTINATION
+                        define destination store
+  -f CSV_FILE, --csv-file CSV_FILE
+                        define csv file
+  -l, --listen          active tunneling mode
+  -s, --separate-log    separate logs per user
+
+    
