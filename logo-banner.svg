@@ -1,1 +1,5 @@
-<content of logo-banner.svg>
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="200" fill="#1e3a8a"/>
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="#ffffff">ZCS Lightning Move</text>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#ffffff">Empowering Fast Data Transfers</text>
+</svg>

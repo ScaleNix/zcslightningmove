@@ -1,1 +1,11 @@
-<content of logo.svg>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="95" fill="#1e3a8a" stroke="#3b82f6" stroke-width="3"/>
+  <path d="M 50 80 L 100 110 L 150 80 L 150 140 L 50 140 Z" fill="#60a5fa" stroke="#1e40af" stroke-width="2"/>
+  <path d="M 50 80 L 100 110 L 150 80" fill="none" stroke="#1e40af" stroke-width="2"/>
+  <path d="M 110 50 L 95 95 L 115 95 L 90 150 L 120 100 L 100 100 Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 140 70 L 165 70 L 158 63 M 165 70 L 158 77" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="30" y1="60" x2="45" y2="60" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="25" y1="75" x2="42" y2="75" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="30" y1="90" x2="45" y2="90" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">ZCS Lightning</text>
+</svg>
